@@ -40,11 +40,15 @@ menu {
     background-color: #1E1E1E;
     display: inline-flex;
     width: 100vw;    
-    height: 40px;                   
+    height: 60px;                   
     text-align: center;
     color: #EB1C27;
     font-family:cursive;
     box-shadow: 0px 10px 10px #1E1E1E;
+}
+menu > ul{
+    list-style-type: none;
+    width: auto;
 }
 menu img{
     padding-left: 15px;
@@ -193,7 +197,7 @@ img {
 overflow: clip;
 }
 nav{
-    display: none;
+    /*display: none;*/
 }
 #col2{
     display: none;

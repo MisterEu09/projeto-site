@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 508px) {
     *{           
         padding: 0px;
         margin: 0px;
@@ -37,10 +37,16 @@
         color: #EB1C27;
         font-family:cursive;
         box-shadow: 0px 10px 10px #1E1E1E;
+
+    }
+    menu img{
+        float: left;
+
     }
     a{
         text-decoration: none;
         color: white;
+
     }
     menu li{
         display: inline-block;
@@ -49,15 +55,21 @@
     }
     ul{
         width: 300px;
+        margin: auto;
     }
     nav{
+        float: right;
+        width: auto;
         background-color: black;
-        margin: auto;
+
         display: inline-flex;
+        /*margin-left: 37%;*/
+        align-items: right;
     }
     .redes{
         display: inline-flex;
         background-color: rgb(255, 255, 255);
+        margin: auto;
     }
     .redes a {
         display: block;
@@ -174,4 +186,5 @@
     #burguer{
         display: none;
     }    
+ 
 }
