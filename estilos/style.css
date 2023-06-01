@@ -1,12 +1,11 @@
 @charset "UTF-8";
 *{       
-   
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
 header{
-    width: 97vw;
+    width: 100vw;
     background-color: aqua;
 }
 
@@ -19,14 +18,14 @@ body, html{
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    width: 90vw;
+    width: 100vw;
 }
 div{
     display: block;
 }
 .topo{
     display: inline-flex;
-    width: 97vw;    
+    width: 100vw;    
     height: 12vh;                   
     text-align: center;
     color: #EB1C27;
@@ -34,17 +33,20 @@ div{
     padding: 16px 0px;
 }
 .topo img{
-    height: 11vh;
+    height: 30px;
 }
 menu {
     background-color: #1E1E1E;
     display: inline-flex;
-    width: 97vw;    
+    width: 100vw;    
     height: 12vh;                   
     text-align: center;
     color: #EB1C27;
     font-family:cursive;
     box-shadow: 0px 10px 10px #1E1E1E;
+}
+menu img{
+    height: 30px;
 }
 a{
     text-decoration: none;
@@ -58,7 +60,7 @@ ul{
     width: 300px;
 }
 nav{
-    width: 97vw;
+    width: 100vw;
     background-color: black;
     margin: auto;
     display: inline-flex;
@@ -92,7 +94,7 @@ h1{
     box-shadow: 0px 10px 10px #2c2e30;
     background-color: #606569;
     color: white;
-    width: 97vw;
+    width: 100vw;
     font-weight: bolder;
     padding-left: 12px;
     padding-right: 12px;
@@ -116,7 +118,7 @@ background-color: #1E1E1E;
 height: 100%;
 display: inline-block;
 margin-top: 0px;
-width: 97vw;
+width: 100vw;
 padding-left: 30px;
 }
 #b a{
@@ -126,13 +128,13 @@ background-color: palevioletred;
 padding: 8px 24px;
 }
 .b1{
-    width: 98vw;
+    width: 100vw;
 background-color: yellowgreen;
 border-bottom: 1px solid #EB1C27;
 padding: 16px 0;
 }
 .b2{
-    width: 98vw;
+    width: 100vw;
 background-color: violet;
 align-items: center;
 display: flex;
@@ -197,12 +199,11 @@ nav{
 
 .a1{
     max-width: 1248px;
-    width: 99vw;
+    width: 100vw;
     padding-left: 12px;
     padding-right: 12px;
     margin-left: auto;
     margin-right: auto;
-    width: 99%;
 }
 .a2{
     padding-top: 24px;
