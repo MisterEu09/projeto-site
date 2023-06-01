@@ -171,5 +171,7 @@
     img {
     overflow: clip;
     }
-    
+    #burguer{
+        display: none;
+    }    
 }
