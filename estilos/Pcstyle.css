@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+div {
+    display: block;
+}
+.mobile {
+    display: none;
+}
+* {
+    outline: none !important;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+nav {
+    display: block;
+}
+header {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    border-top: 3px solid #2c66eb;
+    position: relative;
+    z-index: 8;
+}
+header .lineBottom {
+    width: 100%;
+}
+header .lineBottom .main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main {
+    max-width: 1400px;
+    width: 95%;
+    margin: 0 auto;
+}
