@@ -1,39 +1,152 @@
 @charset "UTF-8";
-
-div {
-    display: block;
+@media screen and (min-width:700px) {
+    
+#img{
+    margin-left: 30px;
 }
-.mobile {
+    #col1 .news{
+        border-bottom: 1px dashed springgreen;
+        padding: 24px 0px;
+        width: 63vw;
+    }
+    article{
+        align-items: center;
+        display: inline-block;
+        padding: 0px;
+        position: relative;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 20px;
+        margin-inline-end: 30px;
+    }
+    figure{
+        margin-right: 20px;
+        width:164px ;
+        float: left;
+    }
+    .imgCard{
+        margin-right: 20px;       
+        border-radius: 8px;
+        display: block;
+        object-fit: cover;
+        position: relative;
+        overflow: hidden;
+        width: 164px;
+        height: 118px;
+    }
+    .infoCard{
+        float: right;
+    }
+    .cardBox h3{
+        color: rgb(54, 54, 54);
+        font-size: 25px;
+        width: auto;
+    }
+    .cardBox {
+        padding-left: 0px;
+    display: inline-flex;
+    height: auto;
+    }
+.subtitleCard{
     display: none;
 }
-* {
-    outline: none !important;
-    text-decoration: none;
-    margin: 0px;
-    padding: 0px;
+.tipoCard{
+    display: none;
 }
-nav {
+#col1{
+    width: 66.66667%;
+}
+#col2{
+    margin-top: 50px;
     display: block;
+    width: 33.333%;
+
+    margin-right: 0px;
 }
-header {
-    width: 100%;
-    background-color: #000;
-    color: #fff;
-    border-top: 3px solid #2c66eb;
+.contentPrincipal{display: flex;}
+#col2 .cardBox {
+    padding: 0px;
+    margin-right: 0px;
+display: inline-flex;
+height: auto;
+}
+#col2 .news{
+    border-bottom: 1px dashed springgreen;
+    padding: 0px;
+    margin: 0px;
+}
+#col2 figure{
+    margin:0;
     position: relative;
-    z-index: 8;
+    display: block;
+    width:12vw ;
+    float: left;
 }
-header .lineBottom {
-    width: 100%;
-}
-header .lineBottom .main {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+#col2 .imgCard{
+   padding: 2px;
+    border-radius: 8px;
+    display: block;
+    object-fit: cover;
+    position: relative;
+    overflow: hidden;
+    width: 12vw;
+    height: auto;
+
 }
 
-.main {
-    max-width: 1400px;
-    width: 95%;
-    margin: 0 auto;
+#col2 .cardBox h3{
+    color: rgb(54, 54, 54);
+    font-size: 20px;
+    width: auto;
+}
+#col2 .titleCard{
+    font-size: 12px;
+    color: yellowgreen;
+}
+#col2 .timeCard{
+    font-size: small;
+}
+#col2 .cardBox {
+    transform: translateX(-4vw);
+    padding-left: 0px;
+display: inline-flex;
+width: 100%;
+height: 100%;
+
+}
+#col2 .infoCard{
+    display: block;
+    margin: 6px 0px 0px 25px;
+    float: right;
+}
+.subtitleCard{
+display: none;
+}
+.tipoCard{
+display: none;}
+
+#burguer{
+    display: none;
+}
+menu{
+    display: inline-flex;
+    position: relative;
+    
+
+}
+#menu{
+    display: block;
+    float:left ;
+    margin: auto;
+    margin-left: 5px;
+}
+
+ul{
+    display: inline-flex;
+    list-style: none;
+}
+#itens{
+    display: flex;
+}
 }

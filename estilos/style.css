@@ -1,8 +1,17 @@
 @charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 
+}
+body,html, main{
+        width: 99vw;
+}
 .a1{
     height: 40px;
-    background-color: brown;
+
+    background-color: white;
 }
 #imgLogo{
     float: left;
@@ -10,10 +19,11 @@
 }
 .a1 h1{
     text-align: center;
+    color: brown;
 }
 .a2{
-    background-color: aqua;
     height: 40px;
+    background-color: aqua;
 }
 #imgOutraLogo{
     height: 40px;
@@ -27,9 +37,135 @@
     text-align: center;
     cursor: pointer;
 }
+menu > ul{
+    list-style-type: none;
+}
+menu a{
+    display: block;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px;
+
+    background-color: transparent;
+    text-align: center;
+}
+menu li{  
+}
+menu a:hover{
+    background-color: rgba(6, 63, 63, 0.175);
+
+}
+.redes{
+    display: none;
+}
 #itens{
     display: none;
 }
 .a3{
-    height: 300px;
+    height: 70vh;
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.715);
+    background-color: rgb(53, 50, 56);
+    padding-top:15px;
+
+
+}
+#a3{
+    background-color: rgba(240, 248, 255, 0.393);
+}
+.a3 h1{
+    float:left;
+    color: white;
+    border: 2px dashed yellow;
+    margin-top: 10vh;
+    position: relative;
+
+}
+.a3 img{
+    width:20vw;
+    max-width: 200px;
+    max-height: 177.5vh;
+    min-width: 140px;
+    background-color: violet;
+
+}
+#img{
+    min-width: 140px;
+    max-height: 250px;
+        height: 250px;
+        width: 20vw;
+        float:left;
+        margin: 15px 20px;
+}
+.a4{
+    background-color: turquoise;
+    height: 40px;
+    display: flex;
+    font-size: 20px;
+    box-shadow: 0px -5px 10px black;
+}
+.a4 > a :hover{
+    box-shadow: 0px 4px 5px black;
+}
+.a4 p{
+    margin: 0px 10px;
+    height: auto;
+    padding-top: 10px;
+}
+#pageAtual{
+    background-color: teal;
+    padding: 10px;
+}
+.a4 a{
+    height: 90px;
+    text-decoration: none;
+    color: white;
+}
+.main h1{
+    margin: 20px 0 0 20px;
+}
+.cardBox{
+    margin: 0 24px 0 0;
+position: relative;
+display: block;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 40px;
+margin-inline-end: 40px;
+}
+.cardBox:hover{
+color: yellowgreen;
+padding: 5px;
+transition: 0.3s;
+background-color: rgb(255, 251, 251);
+}
+.imgCard{
+width: 100%;
+height: 300px;
+border-radius: 8px;
+}
+figure{
+margin: 10px 0px;
+
+}
+.tipoCard{
+background-color: blueviolet;
+width: 55px;
+padding: 3px;
+border-radius: 3px;
+margin: 10px 0px;
+}
+.infoCard h3
+{
+font-size: 25px;
+}
+.timeCard{
+font-weight: lighter;
+color: gray;
+}
+.subtitleCard{
+font-weight: lighter;
+color: gray;
+}
+#col2{
+    display: none;
 }
