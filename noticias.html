@@ -224,6 +224,26 @@
             </div>
         </div>
     </main>
+    <footer>
+ 
+            <div ><img id="logo" src="imagem/logo-white.png" alt=""></div>
+            
+            <div id="sobreNos">
+            <h2>Sobre nós</h2>
+            <p>Somos uma equipe apaixonada pela cultura nerd e fazemos conteúdo de fã para fã! Vem com gente ;)
+            </p>
+            <ul>
+                <img src="imagem/logoFace.png" alt="">
+                <img src="imagem/logoInsta.png" alt="">
+                <img src="imagem/logoTwitter.png" alt="">
+                <img src="imagem/logoYtb.png" alt="">
+            </ul>
+        </div>            
+        <p id="ltda">
+                © 3015-2023  Seilá Entretenimento e Serviços de Informação LTDA
+                Todas as imagens de filmes, séries e etc são marcas registradas dos seus respectivos proprietários.</p>
+
+    </footer>
     <script>
         function clickMenu(){
            if( itens.style.display == 'block'){
@@ -239,6 +259,9 @@
             }
             else {
                 itens.style.display ='none'
+            }
+            if(window.innerHTML < 700){
+                itens.style.height= '500px'
             }
         }
     </script>

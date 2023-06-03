@@ -22,7 +22,8 @@ body,html, main{
     color: brown;
 }
 .a2{
-    height: 40px;
+    min-height: 40px;
+    height: auto;
     background-color: aqua;
 }
 #imgOutraLogo{
@@ -46,11 +47,20 @@ menu a{
     text-decoration: none;
     padding: 10px;
 
-    background-color: transparent;
+    background-color: pink;
     text-align: center;
 }
 a{
     text-decoration: none;
+}
+
+#menu a {
+    display: block;
+    background-color: aqua;
+    color: rgb(63, 63, 63);
+}
+#menu a:hover{
+    background-color: rgb(2, 161, 161);
 }
 menu a:hover{
     background-color: rgba(6, 63, 63, 0.175);
@@ -177,4 +187,43 @@ color: gray;
 }
 #col2{
     display: none;
+}
+footer{
+    width: 97vw;
+    padding: 0 20px 0 20px;
+    margin-top: 30px;
+    background-color: #656565;
+    color: white;
+}
+
+#logo{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    trasn
+    width: auto;
+    height: 70px;
+    background-color: blueviolet;
+}
+#sobreNos{
+    background-color: violet;
+    height: 90vh;
+}
+#sobreNos h2{
+    margin-top: 40px;
+    padding: 40px 0 0 0;
+    border-top: 1px dashed red;
+}
+#sobreNos img{
+    width: 30px;
+    margin-right:2px ;
+}
+#sobreNos p{
+    padding: 30px 0px;
+}
+footer p #ltda{
+    border-top:1px dashed white;
+    padding: auto;
+    text-align: center;
+    font-size: small;
 }
