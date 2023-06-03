@@ -200,7 +200,7 @@ footer{
     position: relative;
     top: 50%;
     left: 50%;
-    trasn
+    transform: translate(-50%, 50%);
     width: auto;
     height: 70px;
     background-color: blueviolet;
