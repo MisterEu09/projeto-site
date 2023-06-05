@@ -1,0 +1,44 @@
+@charset "UTF-8";
+@media screen and (min-width:768px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+#as{
+    height: 300vh;
+}
+.games img{
+    padding: 0px;
+    max-width: 200px;
+    margin: 0px;
+    height: 50vh;
+    width: 100%;
+}
+#listGames{
+    display: block;
+    width: 100vw;
+    padding: 20px;
+}
+}
+
+  /*Games
+#contentGames{
+    background-color: aqua;
+}
+#listGames{   
+    width: 100vw;
+    background-color: blue;
+    display: block;
+    margin: 0px;
+}
+
+.games{
+    width: 30vw;
+    position: relative;
+    margin: 0px;
+    padding: 0 10px 10px 10px;
+    display: inline-block;
+    background-color: #6a2055;
+    height: 65vh;
+}  
+}

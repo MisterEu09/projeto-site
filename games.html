@@ -8,8 +8,92 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/Pcstyle.css">
+    <link rel="stylesheet" href="game.css" media="all">
+    <link rel="stylesheet" href="gamesPc.css">
 </head>
-<body onresize="mudouTamanho()"> 
+<style>
+    .a2{
+min-height: 40px;
+height: auto;
+background-color: #00184C;
+}
+    #menu a:hover{
+background-color: #3D0110;
+}
+menu a:hover{
+background-color: rgba(6, 63, 63, 0.175);
+}
+    .a3{
+height: 70vh;
+box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.715);
+background: url(imagem/Ordem/capsule_616x353_brazilian.jpg) top left no-repeat;
+background-attachment: fixed;
+background-size: cover;
+padding-top:15px;
+}
+#a3{
+background-color: rgba(240, 248, 255, 0.393);
+}
+.a3 h1{
+font-size: 27px;
+float:left;
+color: rgb(255, 255, 255);
+margin-top: 10vh;
+position: relative;
+}
+.a3 img{
+width:20vw;
+max-width: 200px;
+max-height: 177.5vh;
+min-width: 140px;
+background-color: violet;
+}
+#img{
+min-width: 140px;
+max-height: 250px;
+    height: 250px;
+    width: 20vw;
+    float:left;
+    margin: 15px 20px;
+}
+.a4{
+background-color:#00184C;
+height: 40px;
+display: flex;
+font-size: 20px;
+box-shadow: 0px -5px 10px black;
+}
+#pageAtual{
+background-color: #3D0110;
+}
+.a4 a{
+display: block;
+padding: 10px 18px 10px 10px;
+height: 40px;
+margin: 0px 10px 0 5px;
+font-size: 15px;
+text-align: center;
+width: auto;
+text-decoration: none;
+color: rgb(255, 255, 255);
+;
+
+}
+.a4 a:hover{
+box-shadow: 0px 5px 5px black;    
+background-color: #3D0110;
+}
+.tipoCard{
+background-color: #00184C;
+}
+.titleCard{
+color: #00184C;
+}
+#btn{
+background-color: #3D0110;
+}
+</style>
+<body onresize="mudouTamanho()">
     <header>
         <div class="a1">
             <img id="imgLogo" src="imagem/Menu/Logo.jpg" alt="">
@@ -26,9 +110,9 @@
                             </a></li>
                         <li><a href="#">DCU</a></li>
                     
-                        <li><a href="games.html">GEEK</a></li>
+                        <li><a href="">GEEK</a></li>
                     
-                        <li><a href="#">GAMES</a></li>
+                        <li><a href="games.html">GAMES</a></li>
                     
                         <li><a href="#">FILMES</a></li>
                     </ul>
@@ -36,110 +120,89 @@
             
  </menu>
         </div>
-    </header>
-    <main>
-        <div id="contentGames">
-            <div id="listGames">
-                <figure class="games">
-                    <a href="minecarft.html">
-                    <div class="imgGames"><img src="imagem/mine/minecarft.jpg" alt=""></div><br> <p>Minecraft</p> </a>
-                </figure>
-                <figure class="games">
-                    <a href="sobreGenshin.html">
-                        <div class="imgGames"><img src="imagem/genshin/genshinImpact.jpg" alt=""> </div><br> <p>Genshin Impact</p>
-                    </a>
-                </figure>                
-
-                <figure class="games">
-                    <a href="minecarft.html">
-                    <div class="imgGames"><img src="imagem/mine/minecarft.jpg" alt=""></div><br> <p>Minecraft</p> </a>
-                </figure>
-                <figure class="games">
-                    <a href="sobreGenshin.html">
-                        <div class="imgGames"><img src="imagem/genshin/genshinImpact.jpg" alt=""> </div><br> <p>Genshin Impact</p>
-                    </a>
-                </figure>
-                <figure class="games">
-                    <a href="minecarft.html">
-                    <div class="imgGames"><img src="imagem/mine/minecarft.jpg" alt=""></div><br> <p>Minecraft</p> </a>
-                </figure>
-                <figure class="games">
-                    <a href="sobreGenshin.html">
-                        <div class="imgGames"><img src="imagem/genshin/genshinImpact.jpg" alt=""> </div><br> <p>Genshin Impact</p>
-                    </a>
-                </figure>                
-
-                <figure class="games">
-                    <a href="minecarft.html">
-                    <div class="imgGames"><img src="imagem/mine/minecarft.jpg" alt=""></div><br> <p>Minecraft</p> </a>
-                </figure>
-                <figure class="games">
-                    <a href="sobreGenshin.html">
-                        <div class="imgGames"><img src="imagem/genshin/genshinImpact.jpg" alt=""> </div><br> <p>Genshin Impact</p>
-                    </a>
-                </figure>
-            </div>
-        </div>
+    </header>  
+    <main id="as">
+            <h1>Jogos</h1>
+        <div id="listGames">
+            <figure class="games">
+                <a href="minecarft.html">
+                <div class="imgGames"><img src="imagem/mine/minecarft.jpg" alt=""></div><br> <p>Minecraft</p> </a>
+            </figure>
+            <figure class="games">
+                <a href="sobreGenshin.html">
+                    <div class="imgGames"><img src="imagem/genshin/genshinImpact.jpg" alt=""> </div><br> <p>Genshin Impact</p>
+                </a>
+            </figure>   
+            <figure class="games">
+                <a href="Ordem.html">
+                <div class="imgGames"><img src="imagem/Ordem/V_Enigma_do_Medo.png" alt=""></div><br> <p> Enigma do Medo</p> </a>
+            </figure>
+            <figure class="games">
+                <a href="sobreGenshin.html">
+                    <div class="imgGames"><img src="imagem/genshin/genshinImpact.jpg" alt=""> </div><br> <p>Genshin Impact</p>
+                </a>
+            </figure>             
+    </div>
         
     </main>
     <footer>
  
-            <img id="logo" src="imagem/logo-white.png" alt="">
+        <img id="logo" src="imagem/logo-white.png" alt="">
+        
+        <div id="algo">
+            <div id="sobreNos">
+            <h2>Sobre nós</h2>
+            <p>Somos uma equipe apaixonada pela cultura nerd e fazemos conteúdo de fã para fã! Vem com gente ;)
+            </p>
+            <ul>
+                <img src="imagem/logoFace.png" alt="">
+                <img src="imagem/logoInsta.png" alt="">
+                <img src="imagem/logoTwitter.png" alt="">
+                <img src="imagem/logoYtb.png" alt="">
+            </ul>
+                    </div>   
+                    <div id="mapa">
+            <h2>Mapa</h2>
+            <ul>
+                    <li><a href="#">MARVEL
+                        </a></li>
+                    <li><a href="#">DCU</a></li>
             
-            <div id="algo">
-                <div id="sobreNos">
-                <h2>Sobre nós</h2>
-                <p>Somos uma equipe apaixonada pela cultura nerd e fazemos conteúdo de fã para fã! Vem com gente ;)
-                </p>
-                <ul>
-                    <img src="imagem/logoFace.png" alt="">
-                    <img src="imagem/logoInsta.png" alt="">
-                    <img src="imagem/logoTwitter.png" alt="">
-                    <img src="imagem/logoYtb.png" alt="">
-                </ul>
-                        </div>   
-                        <div id="mapa">
-                <h2>Mapa</h2>
-                <ul>
-                        <li><a href="#">MARVEL
-                            </a></li>
-                        <li><a href="#">DCU</a></li>
-                
-                        <li><a href="#">GEEK</a></li>
-                
-                        <li><a href="#">GAMES</a></li>
-                
-                        <li><a href="#">FILMES</a></li>
-                </ul>
-                        </div>
-            </div>     
-        <div>
-            <p id="ltda">
-                    © 3015-2023  Seilá Entretenimento e Serviços de Informação LTDA
-                    Todas as imagens de filmes, séries e etc são marcas registradas dos seus respectivos proprietários.</p>
-        </div>
+                    <li><a href="#">GEEK</a></li>
+            
+                    <li><a href="#">GAMES</a></li>
+            
+                    <li><a href="#">FILMES</a></li>
+            </ul>
+                    </div>
+        </div>     
+    <div>
+        <p id="ltda">
+                © 3015-2023  Seilá Entretenimento e Serviços de Informação LTDA
+                Todas as imagens de filmes, séries e etc são marcas registradas dos seus respectivos proprietários.</p>
+    </div>
 
-    </footer>
-    <script>
-        function clickMenu(){
-           if( itens.style.display == 'block'){
-           itens.style.display ='none'
-           }
-           else{
-            itens.style.display = "block"
-           }
+</footer>
+<script>
+    function clickMenu(){
+       if( itens.style.display == 'block'){
+       itens.style.display ='none'
+       }
+       else{
+        itens.style.display = "block"
+       }
+    }
+    function mudouTamanho(){
+        if (window.innerWidth>=768){
+            itens.style.display = 'block'
         }
-        function mudouTamanho(){
-            if (window.innerWidth>=768){
-                itens.style.display = 'block'
-            }
-            else {
-                itens.style.display ='none'
-            }
-            if(window.innerHTML < 700){
-                itens.style.height= '500px'
-            }
+        else {
+            itens.style.display ='none'
         }
-    </script>
+        if(window.innerHTML < 700){
+            itens.style.height= '500px'
+        }
+    }
+</script>
 </body>
 </html>
