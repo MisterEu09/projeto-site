@@ -18,7 +18,9 @@ a{
     padding: 0px;
     max-width: 200px;
     margin: 0px;
-    height: 50vh;
+    height: 200px;
+
+    min-width: 30px;
     width: 170px;
 }
 #listGames{
