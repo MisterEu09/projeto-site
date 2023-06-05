@@ -1,16 +1,30 @@
-@charset "UTF-8";
+  @charset "UTF-8";
+
+@font-face {
+    font-family: SSRegular;
+    src: url(../fontes/Source_Sans_Pro/SourceSansPro-Regular.ttf);
+}
+@font-face {
+    font-family:SSBold;
+    src: url(../fontes/Source_Sans_Pro/SourceSansPro-SemiBold.ttf);
+}
+  :root{
+    --fontePadrao:'SSRegular';
+    --fonteNegrito:'SSBold';
+  }
 *{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-
+}
+body{
+    overflow-x: hidden;
 }
 body,html, main{
-        width: 99vw;
+    font-family: var(--fontePadrao);
 }
 .a1{
     height: 40px;
-
     background-color: white;
 }
 #imgLogo{
@@ -20,11 +34,15 @@ body,html, main{
 .a1 h1{
     text-align: center;
     color: brown;
+    font-family: fantasy;
+}
+h1,h2,h3{
+    font-family: var(--fonteNegrito);
 }
 .a2{
     min-height: 40px;
     height: auto;
-    background-color: aqua;
+
 }
 #imgOutraLogo{
     height: 40px;
@@ -34,6 +52,8 @@ body,html, main{
     float: right;
     display: block;
     color: white;
+    height: 20px;
+    transform: translateX(-15px);
     padding: 10px;
     text-align: center;
     cursor: pointer;
@@ -43,28 +63,21 @@ menu > ul{
 }
 menu a{
     display: block;
-    color: aliceblue;
+
     text-decoration: none;
     padding: 10px;
-
-    background-color: pink;
     text-align: center;
 }
 a{
     text-decoration: none;
 }
-
 #menu a {
     display: block;
-    background-color: aqua;
-    color: rgb(63, 63, 63);
+    color: rgb(255, 255, 255);
 }
-#menu a:hover{
-    background-color: rgb(2, 161, 161);
-}
+
 menu a:hover{
     background-color: rgba(6, 63, 63, 0.175);
-
 }
 .redes{
     display: none;
@@ -75,10 +88,10 @@ menu a:hover{
 .a3{
     height: 70vh;
     box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.715);
-    background-color: rgb(53, 50, 56);
+    background: url(../imagem/genshin/1306060-Aether-Genshin-Impact-Lumine-Genshin-ImpactGenshin.jpg) top center no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     padding-top:15px;
-
-
 }
 #a3{
     background-color: rgba(240, 248, 255, 0.393);
@@ -86,11 +99,9 @@ menu a:hover{
 .a3 h1{
     font-size: 27px;
     float:left;
-    color: white;
-    border: 2px dashed yellow;
+    color: rgb(255, 255, 255);
     margin-top: 10vh;
     position: relative;
-
 }
 .a3 img{
     width:20vw;
@@ -98,10 +109,8 @@ menu a:hover{
     max-height: 177.5vh;
     min-width: 140px;
     background-color: violet;
-
 }
 #img{
-    margin-left: 0px;
     min-width: 140px;
     max-height: 250px;
         height: 250px;
@@ -110,46 +119,47 @@ menu a:hover{
         margin: 15px 20px;
 }
 .a4{
-    background-color: hsl(174, 72%, 56%);
+
     height: 40px;
     display: flex;
     font-size: 20px;
     box-shadow: 0px -5px 10px black;
 }
-.a4 > a :hover{
-    box-shadow: 0px 4px 5px black;
-}
-.a4 p{
-    margin: 0px 10px;
-    height: auto;
-    padding-top: 10px;
-}
 #pageAtual{
-    background-color: teal;
-    padding: 10px;
+    background-color: #20436A;
 }
 .a4 a{
-    height: 90px;
+    display: block;
+    padding: 10px 18px 10px 10px;
+    height: 40px;
+    margin: 0px 10px 0 5px;
+    font-size: 15px;
+    text-align: center;
+    width: auto;
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
+}
+.a4 a:hover{
+    box-shadow: 0px 5px 5px black;    
+
 }
 .main h1{
     margin: 20px 0 0 20px;
 }
 article{
-    padding-top: 25px;
+    margin: 0px;
+    padding-top: 5px;
     padding-bottom: 25px;
     border-bottom: 2px dashed blueviolet;
 }
-.cardBox{
-    margin: 0px 24px 0 0;
-
+#col1 .cardBox{
+    margin: 0px 0px 0 0;
 position: relative;
 display: block;
-margin-block-start: 1em;
-margin-block-end: 1em;
-margin-inline-start: 40px;
-margin-inline-end: 40px;
+margin-block-start: 0em;
+margin-block-end: em;
+margin-inline-start: 30px;
+margin-inline-end: 0px;
 }
 .cardBox:hover{
 color: yellowgreen;
@@ -167,63 +177,153 @@ margin: 10px 0px;
 
 }
 .tipoCard{
-background-color: blueviolet;
-width: 63px;
-padding: 5px;
-border-radius: 3px;
-margin: 10px 0px;
+    text-indent: 0;
+    background-color: blueviolet;
+    width: 73px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin: 15px 3px;
 }
-.infoCard h3
+#col1 .infoCard h3
 {
+    line-height: 24px;
 font-size: 25px;
 }
 .timeCard{
+    margin-left: 5px;
 font-weight: lighter;
 color: gray;
 }
+.titleCard{
+    color: blueviolet;
+    padding: 10px;
+}
 .subtitleCard{
+    padding: 8px;
 font-weight: lighter;
 color: gray;
 }
 #col2{
     display: none;
 }
+p{
+    text-indent: 10px;
+}
+/*Sobre*/
+#fichaTecnica{
+    padding: 15px;
+    columns: 2;
+}
+#FT{
+    margin: 6px;
+    padding: 15px 0 0 15px;    
+}
+#fichaTecnica p{
+    padding: 3.5px;
+}
+#resumo{
+    padding: 50px 10px 10px 10px;
+}
+#resumo h2{
+    margin: 6px;
+}
+#ultimasNews{
+    padding: 50px 10px 10px 10px;
+    text-align: 20px;
+}
+#ultimasNews h2{
+    margin-left: 10px;
+}
+#btn{
+    text-indent: 0px;
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+    margin: auto;
+    width: 50vw;
+    background-color: blueviolet;
+}
+
+/*Games*/
+#listGames{
+    
+}
+.games{
+    margin: 10px;
+    display: inline-flex;
+    background-color: #20436A;
+    height: 60vh;
+}
+.games p{
+    padding: auto;
+    margin: 0;
+}
+.imgGames{
+    padding: 0px;
+    margin: 0px;
+}
+.games img{
+    max-width: 200px;
+    margin: 0px;
+    height: 50vh;
+    width: 40vw;
+}
+/*Footer*/
+
+
 footer{
-    width: 97vw;
     padding: 0 20px 0 20px;
     margin-top: 30px;
     background-color: #656565;
     color: white;
 }
-
+footer div{
+    padding: 30px 0px;
+    border-top: 1px dashed red;}
+footer #mapa li, a,ul{
+    padding: 5px;
+    list-style: none;
+    font-size: 15px;
+    line-height: 18px;
+    color: white;
+}
 #logo{
     position: relative;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 50%);
+    transform: translate(-50%, 0);
     width: auto;
     height: 70px;
-    background-color: blueviolet;
+    padding: 15px;
+    margin-bottom: 0px;
 }
-#sobreNos{
-    background-color: violet;
-    height: 90vh;
+#algo{
+    border: none;
+    margin-top: 0px;
+    padding-top: 0px;
 }
-#sobreNos h2{
-    margin-top: 40px;
-    padding: 40px 0 0 0;
-    border-top: 1px dashed red;
+footer h2{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 15px;
+
 }
 #sobreNos img{
-    width: 30px;
+    margin-top: 10px;
+    width: 35px;
     margin-right:2px ;
 }
 #sobreNos p{
-    padding: 30px 0px;
+    font-size: 14px;
+    line-height: 22,4px;
 }
-footer p #ltda{
-    border-top:1px dashed white;
-    padding: auto;
+footer #ltda{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 15,6px;
+
     text-align: center;
-    font-size: small;
+    font-size: 13px;
 }

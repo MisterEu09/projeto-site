@@ -1,13 +1,13 @@
 @charset "UTF-8";
-@media screen and (min-width:700px) {
+@media screen and (min-width:768px) {
     
 #img{
     margin-left: 30px;
 }
+/*Coluna 1*/
     #col1 .news{
-        border-bottom: 1px dashed springgreen;
-        padding: 24px 0px;
-        width: 63vw;
+        padding: 20px 0px 0 0;
+        width: 60vw;
     }
     article{
         align-items: center;
@@ -43,8 +43,8 @@
         font-size: 25px;
         width: auto;
     }
-    .cardBox {
-        padding-left: 0px;
+    #col1 .cardBox {
+    padding-left: 0px;
     display: inline-flex;
     height: auto;
     }
@@ -55,24 +55,44 @@
     display: none;
 }
 #col1{
-    width: 66.66667%;
+    width: 60%;
+    
+    margin-right: 10vw;
 }
+/*Coluna 2*/
 #col2{
+    transform: translateX(-10px);
     margin-top: 50px;
     display: block;
-    width: 33.333%;
-
-    margin-right: 0px;
+    width: 30%;
 }
+
 .contentPrincipal{display: flex;}
 #col2 .cardBox {
+    position: relative;
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
     padding: 0px;
     margin-right: 0px;
-display: inline-flex;
-height: auto;
+    display: inline-flex;
+    width: 100%;
+    height: 100%;
+}
+#col2 .cardBox:hover{
+    color: yellowgreen;
+    padding: 5px;
+    transition: 0.3s;
+    background-color: rgb(255, 251, 251);
+    }
+.ttC2{
+    background-color: yellowgreen;
+    font-size: 0.3vh;
+    color: blue;
 }
 #col2 .news{
-    border-bottom: 1px dashed springgreen;
     padding: 0px;
     margin: 0px;
 }
@@ -92,32 +112,18 @@ height: auto;
     overflow: hidden;
     width: 12vw;
     height: auto;
-
 }
-
 #col2 .cardBox h3{
     color: rgb(54, 54, 54);
-    font-size: 20px;
+    font-size: 1.8vw;
     width: auto;
-}
-#col2 .titleCard{
-    font-size: 12px;
-    color: yellowgreen;
 }
 #col2 .timeCard{
     font-size: small;
 }
-#col2 .cardBox {
-    transform: translateX(-4vw);
-    padding-left: 0px;
-display: inline-flex;
-width: 100%;
-height: 100%;
-
-}
 #col2 .infoCard{
+    padding: 10px 0px;
     display: block;
-    margin: 6px 0px 0px 25px;
     float: right;
 }
 .subtitleCard{
@@ -141,12 +147,52 @@ menu{
     margin: auto;
     margin-left: 5px;
 }
-
 ul{
     display: inline-flex;
     list-style: none;
 }
 #itens{
     display: flex;
+}
+#btn{
+    margin: 10vw auto;
+}
+
+
+/*Games*/
+
+.games img{
+    max-width: 200px;
+    margin: 0px;
+    height: 50vh;
+    width: 40vw;
+}
+
+/*Footer*/
+
+
+#algo{
+    border: none;
+    display: inline-flex;
+    columns: 2;
+}
+#sobreNos,  #mapa{
+    border: none;
+    display: block;
+    height: auto;
+ 
+}
+#mapa{
+    margin: auto;
+    width: 45%;
+}
+#sobreNos p{
+    font-size: 1.045em;
+    margin-left: 20px;
+    width: 70%;
+}
+#mapa ul{
+    width: 10vw;
+    display: block;
 }
 }
