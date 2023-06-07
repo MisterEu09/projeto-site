@@ -162,6 +162,7 @@ section{
 .videos ul{
     list-style: none;
     margin-bottom: 10px;
+    font-size: 0;
 }
 .videos ul li{
     display: inline-block;
@@ -238,4 +239,26 @@ footer{
     padding: 40px 0;
     text-align: center;
     margin-top:40px;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    margin-bottom: 25px;
+}
+.redes a{
+    display: flex;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    font-size: 1.2rem;
+    color: #162336;
+}
+.copy{
+    color: rgba(255, 255, 255, 0.3);
 }

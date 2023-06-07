@@ -1,0 +1,19 @@
+@charset "UTF-8";
+@media only screen and (min-width:550px){
+    .videos ul li{
+        width: 60%;
+        height: auto;
+        
+    }
+}
+@media only screen and (min-width:700px){
+    .videos{
+        white-space: normal;
+        width: 100%;
+    }
+    .videos ul li{
+        width: 50%;
+        display: inline-block;
+
+    }
+}
