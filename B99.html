@@ -15,72 +15,95 @@
             font-family: 'Times New Roman', Times, serif;
         }
         #Bg{
-            background: url(imagem/Loki/bg1.jpg) center;
+            background: url(imagem/B99/bg2P.jpg)  center;
             background-repeat: no-repeat;
             background-size: cover;
         }
         #logo{
             border-radius: 20px;
             padding: 5px 10px;
-            display: inline-block;
-            font-family: 'Times New Roman', Times, serif;
-        }
-        #L{
-            color: #58695B;
-            display: inline-block;
-        }
-        #O{
-            color: #76603B;
-            display: inline-block;
-        }
-        #K{
-            color: #8F948C;
-            display: inline-block;
-        }
-        #I{
-            color: #005A00;
-            display: inline-block;
-        }
-        #btnD{
-border: #ffffff solid 2px;
             color: #ffffff;
-            background: rgba(51,25,8,1) ;
+        }
+        .headline {
+    bottom: 65px;
+
 }
-        #btnTrailer{
-    background: black;
-    border: black solid 2px;            
-        }
             .degrade{
-/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#6f4112+0,1e0b04+100&0+0,0+0,1+74 */
-background: -moz-linear-gradient(top,  rgba(111,65,18,0) 0%, rgba(51,25,8,1) 74%, rgba(30,11,4,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  rgba(111,65,18,0) 0%,rgba(51,25,8,1) 74%,rgba(30,11,4,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  rgba(111,65,18,0) 0%,rgba(51,25,8,1) 74%,rgba(30,11,4,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006f4112', endColorstr='#1e0b04',GradientType=0 ); /* IE6-9 */
-
-
-
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#13172e+2,312d2d+12,312d2d+12,13172e+100&0+29,1+76 */
+background: -moz-linear-gradient(top,  rgba(19,23,46,0) 2%, rgba(49,45,45,0) 12%, rgba(43,41,45,0) 29%, rgba(27,29,46,1) 76%, rgba(19,23,46,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(19,23,46,0) 2%,rgba(49,45,45,0) 12%,rgba(43,41,45,0) 29%,rgba(27,29,46,1) 76%,rgba(19,23,46,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(19,23,46,0) 2%,rgba(49,45,45,0) 12%,rgba(43,41,45,0) 29%,rgba(27,29,46,1) 76%,rgba(19,23,46,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0013172e', endColorstr='#13172e',GradientType=0 ); /* IE6-9 */
+    height: 10%;
+    position: absolute;
+    width: 100%;
+ 
         }
-        nav a{
-    color: rgb(255, 255, 255);
+        header{
+    background-color: rgba(0, 0, 0, 0.123);
+    border-bottom: rgba(0, 0, 0, 0.273) solid 1px;
+}
+#burguer{
+    color: #000000;
+}
+
+nav ul li{
+    border-bottom: rgba(0, 0, 0, 0.06) solid 1px;
+}
+        nav a, .logo{
+    color: rgb(0, 0, 0);
 
 }
         body{
-            background-color: #1E0B04;
+            background-color: rgba(19,23,46,1);
             font-family: 'Times New Roman', Times, serif;
-            color: #76603B;
         }
         footer{
-    background-color: #381508;
+    background-color: rgb(28, 34, 66);
         }
 .redes a{
-    color: #1E0B04;
+    color: rgba(19,23,46,1);
 }
-        @media only screen and (min-width:600px){
-                        #logo{width: 290px;}
+@media only screen and (min-width:600px){
+    
+    .btn {
+        margin: 3px;
+        font-size: 1.1rem;
+    }
+    h1 {
+        font-size: 5.1rem;
+        text-shadow: 1px 1px 5px rgb(0 0 0 / 20%);
+        line-height: 5rem;
+    }
         }
         @media only screen and (min-width:800px){
-                        #logo{width: 310px;}
-        }
+            h1{
+        font-size: 5.rem;
+        text-shadow: 1px 1px 5px rgba(0, 0, 0, 20%);
+        line-height: 4rem;
+                }
+        #Bg{
+            background: url(imagem/B99/bg2.jpg)  center;
+            background-repeat: no-repeat;
+            background-size: cover;
+       
+    }
+    .btn{
+        margin: 4px;
+        font-size: 1rem;       
+}
+.headline {
+    bottom: 95px;
+    left: 9px;
+}
+#btnTrailer{
+    background: black;
+    border: black solid 2px;
+}
+#btnD{
+    border: white solid 2px;
+}
+         }
         
     </style>
 </head>
@@ -89,7 +112,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006f4112', e
       <div class="central">
                 
                   <header>
-                  <a href="" class="logo">LOKI</a>
+                  <a href="" class="logo">BROOKLYN NINE-NINE</a>
                   <span id="burguer" class="material-icons" onclick="clickMenu()" >menu</span>
                   <nav id="itens">
           <ul>
@@ -103,9 +126,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006f4112', e
           
               </header>
               <div class="headline">
-                  <h1 id="logo"><p id="L">L</p><p id="O">O</p><p id="K">K</p><p id="I">I</p></h1>
+                  <h1 id="logo"><span id="lB">BROOKLYN</span> NINE-NINE</h1>
               <div class="ladoALado">
-                  <a href="#" class="btn" id="btnD">assista no Disney+</a>
+                  <a href="#" class="btn" id="btnD">Assista na Netflix</a>
                   <a href="#" class="btn" id="btnTrailer">Assista ao Trailer</a>
               </div>
           </div>
@@ -116,14 +139,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006f4112', e
             <section id="serie">
                 <article>
                     <h2>A SÉRIE</h2>
-                    <img src="imagem/Loki/img1.jpeg" alt="Loki" class="esq margdir w43">
+                    <img src="imagem/B99/bg1.webp" alt="Loki" class="esq margdir w43">
                     <p>
-                        Loki é uma série original do Disney+ que se passa após os eventos narrados em Vingadores: Ultimato. O spin-off segue os passos de Loki (Tom Hiddleston), mais conhecido como Deus da Trapaça, que conseguiu roubar o tesserato dos Vingadores durante a missão de recuperar as Joias do Infinito. Com o poder da gema do espaço, o Asgardiano começa a pular no tempo com a intenção de chegar a Midgard. Ao longo de sua jornada, ele acaba interferindo em momentos importantes da história da humanidade – seja para cumprir seus próprios objetivos, seja para se divertir um pouco.
+                        A série Brooklyn Nine-Nine é ambientada na 99ª Delegacia de Polícia de Nova York, no Brooklyn, acompanhando as maluquices do imaturo detetive Jake Peralta (Andy Samberg) e a relação que ele tem com o novo capitão, Ray Holt (Andre Braugher).
 
                         <br><br>
-                        Desde 2021 / min / Aventura, Fantasia, Ficção científica <br>
-                        Criado por Michael Waldron <br>
-                        Elenco: Tom Hiddleston, Owen Wilson, Gugu Mbatha-Raw
+                        2013 - 2021 / min / Comédia, Policial<br>
+                        Criado por Dan Goor, Michael Schur <br>
+                        Elenco: Andy Samberg, Andre Braugher, Stephanie Beatriz
                         <br>
 
                     </p>
@@ -144,7 +167,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006f4112', e
 
                                         </span>
                                     </div>
-                                    <img src="imagem/Loki/img4.webp" alt="">
+                                    <img src="imagem/B99/Brooklyn-Nine-Nine-7-temporada.webp" alt="">
                                 </a>
                             </li>
                             <li><a href="">
@@ -155,7 +178,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006f4112', e
 
                                     </span>
                                 </div>
-                                <img src="imagem/Loki/Loki-Disney.jpg" alt=""></a></li>
+                                <img src="imagem/B99/img.webp" alt=""></a></li>
                             <li><a href="">
                                 <div class="bgplay">
                                     <span class="play">
@@ -164,7 +187,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006f4112', e
 
                                     </span>
                                 </div>
-                                <img src="imagem/Loki/Loki.jpg" alt=""></a></li>
+                                <img src="imagem/B99/img1.webp" alt=""></a></li>
                             
                             <li><a href="">
                                 <div class="bgplay">
@@ -174,7 +197,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006f4112', e
 
                                     </span>
                                 </div>
-                                <img src="imagem/Loki/img3.jpg" alt=""></a></li>
+                                <img src="imagem/B99/img2.jpg" alt=""></a></li>
                             
                         </ul>
 
@@ -182,22 +205,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006f4112', e
                 </article>
                 <aside id="onde" class="boxassine">
                     <h2>Assista Agora no</h2>
-                    <img src="imagem/D+.svg" alt="">
+                    <img src="imagem/Netflix.png" alt="">
                     <span class="assine">Assine por</span>
-                    <span class="preco">R$:9,99</span>
-                    <span class="vantagens">e tenha acesso a conteúdos exclusivos Disney+</span>
+                    <span class="preco">R$39,90</span>
+                    <span class="vantagens">e tenha acesso a conteúdos exclusivos na Netflix+</span>
 
                 </aside>
             </section>
             <footer id="redes">
-                FOLLOW MARVEL STUDIOS:
+                FOLLOW NETFLIX:
                 <div class="redes">
                     <a href=""><i class="fa-brands fa-facebook-f"></i></a>
                     <a href=""><i class="fa-brands fa-instagram"></i></a>
                     <a href=""><i class="fa-brands fa-twitter"></i></a>
                     <a href=""><i class="fa-brands fa-youtube"></i></a>
                 </div>
-                <span class="copy">TM & © Marvel Ltd. All Rights Reserve</span>
+                <span class="copy">TM & © Fox Ltd. All Rights Reserve</span>
             </footer>
     </div>
 
