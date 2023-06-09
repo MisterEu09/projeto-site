@@ -137,6 +137,7 @@ h2{
     color: white;
     text-transform: uppercase;
 }
+.central{height:100%;}
 section{
     margin: 0 15px 30px 15px;
     clear: both;

@@ -6,7 +6,7 @@
         
     }
 }
-@media only screen and (min-width:700px){
+@media only screen and (min-width:600px){
     .videos{
         white-space: normal;
         width: 100%;
@@ -14,6 +14,76 @@
     .videos ul li{
         width: 50%;
         display: inline-block;
+    }
+    h1{
+        font-size: 5.3rem;
+        text-shadow: 1px 1px 5px rgba(0, 0, 0, 20%);
+        line-height: 5rem;
+    }
+    .btn{
+        margin: 5px;
+        font-size: 1.18rem;    
+}
+    p{
+            padding-top: 8px;
+        }
+    }
+@media only screen and ( min-width:700px){
+    p{
+        text-indent: 8px;
+    }
+}
+@media only screen and ( min-width: 742px){
+    #burguer{
+        display: none;
+    }
+    #itens{
+        display: block;
+    }
+    nav{
+        height: auto;
+        overflow-y: unset;
+        flex-basis: unset;
+    }
+    nav ul li{
+        display: inline-block;
+        border-bottom: none;
+    }
+    nav a{
+        padding: 8px 12px;
+    }
 
+}
+@media only screen and ( min-width: 800px){
+    .spacevideo{
+        width: 63%;
+    }
+    .boxassine{
+        width: 30%;
+        margin: auto;
+    }
+    .secvid{
+        display:flex;
+    }
+    h1{
+        font-size: 5.7rem;
+        text-shadow: 1px 1px 5px rgba(0, 0, 0, 20%);
+        line-height: 5.7rem;
+    }
+    .btn{
+        margin: 5px;
+        font-size: 1.76rem;       
+}
+.w43{
+    max-width: 255px;
+}
+}
+@media only screen and ( min-width: 950px){
+    section, .central{
+        width: 850px;
+        margin: 0 auto;
+    }
+    .w43{
+        max-width: 255px;
     }
 }
